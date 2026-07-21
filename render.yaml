@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: dietai-backend
+    env: java
+    rootDirectory: backend
+    buildCommand: ./mvnw clean package
+    startCommand: java -jar target/*.jar
+    envVars:
+      - key: GROG_API_KEY
+        sync: false
