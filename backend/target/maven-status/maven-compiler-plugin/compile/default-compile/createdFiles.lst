@@ -1,0 +1,4 @@
+com\dietai\controller\MealController.class
+com\dietai\DietAiApplication.class
+com\dietai\dto\PlanRequest.class
+com\dietai\service\AiService.class
