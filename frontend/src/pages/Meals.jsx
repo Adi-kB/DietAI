@@ -29,7 +29,7 @@ export default function Meals() {
       setError(null);
 
       try {
-        const response = await fetch('/api/generate-plan', {
+       const response = await fetch('https://dietai-1.onrender.com/api/generate-plan', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
